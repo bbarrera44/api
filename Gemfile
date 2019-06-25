@@ -39,6 +39,8 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+# Use postgresql as the database for Active Record
+gem 'pg', '~> 0.18'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
